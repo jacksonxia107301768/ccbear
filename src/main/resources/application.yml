@@ -1,0 +1,21 @@
+spring:
+  thymeleaf:
+    mode: HTML5
+logging:
+  level:
+    org:
+      springframework: error
+server:
+  port: ${port:8888}
+
+# 记得替换成你的id和secret
+wechat:
+  appid: wxdf1c3ce7a01eef67
+  secret: 0171d95e48e8be29510e53a5f59c9c48
+
+# h2
+db:
+  url: jdbc:h2:~/jiuask
+  username: root
+  password: root
+  driver: com.mysql.jdbc.Driver
