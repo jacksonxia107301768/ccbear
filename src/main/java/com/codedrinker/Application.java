@@ -14,7 +14,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
 @SpringBootApplication
-@ComponentScan
 @ImportResource({"classpath*:applicationContext.xml"})
 public class Application {
 
